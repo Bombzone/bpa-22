@@ -1,0 +1,14 @@
+body {
+    margin: 0px;
+    display: flex;
+    flex-direction: column;
+    font-family: "Titillium Web", sans-serif;
+}
+.container {
+    display: grid;
+    grid-template-columns: 1fr;
+}
+.contents {
+    display: flex;
+    flex-direction: row;
+}
