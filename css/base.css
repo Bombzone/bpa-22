@@ -1,8 +1,13 @@
 body {
-    margin: 0px;
+    margin: 0px !important;
+    padding: 1vh 1vw !important;
     display: flex;
     flex-direction: column;
     font-family: "Titillium Web", sans-serif;
+    background: no-repeat linear-gradient(to bottom right, #cb464a, #51575e);
+    margin: 0;
+    min-width: 98vw;
+    min-height: 98vh;
 }
 .container {
     display: grid;
