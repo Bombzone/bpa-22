@@ -2,7 +2,7 @@
     display: flex;
     flex-direction: row !important;
     align-items: center;
-    justify-content: center;
+    justify-content: space-evenly;
     text-align: center;
 }
 body {
@@ -13,10 +13,6 @@ body {
     margin: 0;
     min-width: 98vw;
     min-height: 98vh;
-}
-.container {
-    display: grid;
-    grid-template-columns: 1fr;
 }
 h1 {
     text-align: center;
