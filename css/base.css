@@ -13,7 +13,21 @@ body {
     display: grid;
     grid-template-columns: 1fr;
 }
-.contents {
+.content {
     display: flex;
     flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+h1 {
+    text-align: center;
+}
+img {
+    width: auto;
+    height: 175px;
+}
+div {
+    padding-left: 10px;
+    padding-right: 10px;
 }
