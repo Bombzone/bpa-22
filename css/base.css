@@ -20,6 +20,13 @@ h1 {
 img {
     width: auto;
     height: 175px;
+    /* border-left: dotted 5px;
+    border-right: dotted 5px; */
+    box-shadow: 0 4px 0px 0 rgba(0, 0, 0, 0.5), 0 -4px 0px 0
+    rgba(0, 0, 0, 0.5), 4px 4px 0px 0 rgba(0, 0, 0, 0.5), -4px -4px 0px 0
+    rgba(0, 0, 0, 0.5), -4px 4px 0px 0 rgba(0, 0, 0, 0.5), 4px -4px 0px 0
+    rgba(0, 0, 0, 0.5), 4px 4px 0px 0 rgba(0, 0, 0, 0.5), 4px -4px 0px 0
+    rgba(0, 0, 0, 0.5);
 }
 div {
     padding-left: 10px;
