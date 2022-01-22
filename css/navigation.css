@@ -22,13 +22,13 @@
     color: black;
 }
 
-.nav-wrapper .nav-link-wrapper .nav-link-inactive:hover {
+.nav-link-inactive:hover {
     border-bottom: 2px solid black;
     border-bottom-right-radius: 3px;
     border-bottom-left-radius: 3px;
 }
 
-.nav-wrapper .nav-link-wrapper .nav-link-active {
+.nav-link-active {
     border-bottom: 2px solid black;
     border-bottom-right-radius: 3px;
     border-bottom-left-radius: 3px;
