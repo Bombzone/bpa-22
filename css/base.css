@@ -6,13 +6,16 @@
     text-align: center;
 }
 body {
+    align-self: center;
+    justify-self: center;
     margin: 0px !important;
-    padding: 1vh 1vw !important;
+    padding: 1vh 1vw 0 1vw !important;
     font-family: "Titillium Web", sans-serif;
     background: no-repeat linear-gradient(to bottom right, #cb464a, #51575e);
     margin: 0;
-    min-width: 98vw;
+    width: 96vw;
     min-height: 98vh;
+    overflow-x: hidden;
 }
 h1 {
     text-align: center;
@@ -28,6 +31,8 @@ div {
 }
 p {
     width: 75vw;
+    margin-top: 25px;
+    margin-bottom: 25px;
 }
 .content {
     justify-content: center;
@@ -38,6 +43,7 @@ body > hr {
     height: 1px;
     border: 0;
     border: black 5px dotted;
+    width: 90vw;
 }
 a {
     color: #f6f6f6;
