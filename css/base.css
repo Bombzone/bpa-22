@@ -1,3 +1,10 @@
+.content {
+    display: flex;
+    flex-direction: row !important;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
 body {
     margin: 0px !important;
     padding: 1vh 1vw !important;
@@ -12,13 +19,6 @@ body {
 .container {
     display: grid;
     grid-template-columns: 1fr;
-}
-.content {
-    display: flex;
-    flex-direction: row !important;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
 }
 h1 {
     text-align: center;
