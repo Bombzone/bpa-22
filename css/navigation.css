@@ -21,7 +21,9 @@
 .nav-wrapper .nav-link-wrapper a:hover {
     color: black;
 }
-
+.nav-link-inactive {
+    color: #f6f6f6;
+}
 .nav-link-inactive:hover {
     color: black;
     border-bottom: 2px solid black;
