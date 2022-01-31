@@ -18,9 +18,12 @@
     color: #f6f6f6;
     text-decoration: none;
 }
+.nav-wrapper .nav-link-wrapper a:hover {
+    color: black;
+}
 
 .nav-link-inactive:hover {
-    color: black !important;
+    color: black;
     border-bottom: 2px solid black;
     border-bottom-right-radius: 3px;
     border-bottom-left-radius: 3px;
@@ -30,6 +33,6 @@
     border-bottom: 2px solid black;
     border-bottom-right-radius: 3px;
     border-bottom-left-radius: 3px;
-    color: black !important;
+    color: black;
 }
 
