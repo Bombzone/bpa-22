@@ -14,15 +14,12 @@
     font-size: 0.9rem;
 
 }
-.nav-wrapper .nav-link-wrapper a {
+.nav-wrapper .nav-link-wrapper {
     color: #f6f6f6;
     text-decoration: none;
 }
 .nav-wrapper .nav-link-wrapper a:hover {
     color: black;
-}
-.nav-link-inactive {
-    color: #f6f6f6;
 }
 .nav-link-inactive:hover {
     color: black;
