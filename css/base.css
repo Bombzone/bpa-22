@@ -9,22 +9,26 @@ body {
     align-self: center;
     justify-self: center;
     margin: 0px !important;
-    padding: 1vh 1vw 0 1vw !important;
+    padding: 1vh 1vw 1vh 1vw !important;
     font-family: "Titillium Web", sans-serif;
     background: no-repeat linear-gradient(to bottom right, #388f00, #51575e);
     margin: 0;
     width: 96vw;
     min-height: 98vh;
     overflow-x: hidden;
+    font-size: 20pt;
 }
 h1 {
     text-align: center;
+    font-size: 30pt;
+
 }
 img {
-    width: auto;
-    height: 175px;
+    width: 120px;
+    height: 160px;
     border-radius: 5px;
     border: #51575e ridge;
+    padding: 0 !important;
 }
 div {
     padding-left: 10px;
@@ -49,4 +53,12 @@ body > hr {
 a {
     color: #f6f6f6;
     text-decoration: none;
+    align-self: center;
+    font-size: 22pt;
+}
+@media screen and (orientation: portrait){
+    .content-home {
+        flex-direction: column !important;
+        padding-bottom: 15px;
+    }
 }

@@ -3,14 +3,14 @@
     align-items: center;
     justify-content: space-evenly;
     padding: 30px;
-
+    font-size: 22pt;
 }
 .nav-wrapper .nav-link-wrapper {
-    height: 22px;
+    font-size: 22pt;
     border-bottom: 1px solid transparent;
     transition: 0.5s ease-in-out;
     text-transform: uppercase;
-    margin-right: 20px;
+    margin: 5px 10px;
     font-size: 0.9rem;
 
 }
@@ -34,4 +34,19 @@
     border-bottom-left-radius: 3px;
     color: black;
 }
-
+@media (min-width: 695px){
+    body {
+      padding-top: 0% !important;  
+      margin-top: 0%;
+    }
+    .nav-wrapper {
+        flex-direction: column;
+        padding-bottom: 0pt;
+        padding-top: 0%;
+    }
+    .nav-link-wrapper{
+        padding-bottom: 0;
+        padding-top: 0;
+        margin: 0;
+    }
+}
