@@ -34,7 +34,7 @@
     border-bottom-left-radius: 3px;
     color: black;
 }
-@media (min-width: 695px){
+@media (max-width: 695px){
     body {
       padding-top: 0% !important;  
       margin-top: 0%;
