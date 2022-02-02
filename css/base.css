@@ -56,7 +56,7 @@ a {
     align-self: center;
     font-size: 22pt;
 }
-@media screen and (orientation: portrait){
+@media (min-width: 710px){
     .content-home {
         flex-direction: column !important;
         padding-bottom: 15px;
