@@ -50,6 +50,11 @@ body > hr {
     border: black 5px dotted;
     width: 90vw;
 }
+.sources-hr {
+    border: none;
+    border-top: solid black;
+    border-width: 2px;
+}
 a {
     color: #f6f6f6;
     text-decoration: none;
