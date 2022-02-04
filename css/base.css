@@ -1,8 +1,10 @@
 .base .bike {
     display: block;
-    width: 494px;
+    max-width: 494px;
     align-self: center;
-    margin: 0 auto;  
+    margin: 0 auto;
+    width: 100%;  
+    
 }
 .base .recycle {
     display: block;
