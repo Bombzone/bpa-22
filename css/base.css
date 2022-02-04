@@ -1,7 +1,3 @@
-
-body {
-
-}
 .base .bike {
     display: block;
     width: 494px;
@@ -59,9 +55,7 @@ h1 {
 }
 .us {
     width: 120px;
-    height: 160px;
-    border-radius: 5px;
-    border: #51575e ridge;
+    height: auto;
     padding: 0 !important;
 }
 div {
