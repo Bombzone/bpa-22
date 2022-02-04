@@ -1,3 +1,31 @@
+
+body {
+
+}
+.base .bike {
+    display: block;
+    width: 494px;
+    align-self: center;
+    margin: 0 auto;  
+}
+.base .recycle {
+    display: block;
+    height: 150pt;
+    width: initial;
+    margin: 0 auto;
+}
+.base .lights {
+    width: 100%;
+    display: block;
+    margin: 0 auto;
+    align-self: center;
+}
+img {
+    float: none;
+    align-self: center;
+    align-content: center;
+    justify-self: center;
+}
 .content-home {
     display: flex;
     flex-direction: row !important;
@@ -6,6 +34,8 @@
     text-align: center;
 }
 body {
+    align-content: center;
+    justify-content: center;
     align-self: center;
     justify-self: center;
     margin: 0px !important;
@@ -23,7 +53,11 @@ h1 {
     font-size: 30pt;
 
 }
-img {
+.graphic {
+    float: right;
+    max-width: 50vw;
+}
+.us {
     width: 120px;
     height: 160px;
     border-radius: 5px;
