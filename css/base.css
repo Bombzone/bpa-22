@@ -60,6 +60,12 @@ h1 {
     height: auto;
     padding: 0 !important;
 }
+.logo {
+    width: 120px;
+    height: auto;
+    padding: 0 !important;
+}
+
 div {
     padding-left: 10px;
     padding-right: 10px;
