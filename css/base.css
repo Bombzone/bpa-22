@@ -17,6 +17,8 @@ img {
 }
 .cars li {
     width: min-content;
+    padding: 10px;
+    margin: 10px;
     word-wrap: normal;
 }
 body {
