@@ -42,7 +42,7 @@ body {
     background: #4F42B4;
     margin: 0;
     width: 96vw;
-    min-height: 98vh;
+    min-height: 100vh;
     overflow-x: hidden;
     font-size: 20pt;
 }
