@@ -48,7 +48,7 @@ body {
     color: gray;
 }
 .cars{
-    max-width: 250;
+    width: 250;
     max-height: 150px;
 }
 h1 {
