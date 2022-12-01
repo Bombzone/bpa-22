@@ -48,8 +48,8 @@ body {
     color: gray;
 }
 .cars{
-    max-width: 250px;
-    height: auto;
+    max-height: 150px;
+    width: auto;
 }
 h1 {
     text-align: center;
