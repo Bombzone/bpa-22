@@ -65,8 +65,8 @@
 }
 @media (min-width: 932px){
     body #nav1 {
-        height: 0%;
-        overflow: hidden;
+        height: 0% !important;
+        overflow: hidden !important;
         
     }
     .content {
