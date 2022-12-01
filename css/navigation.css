@@ -45,7 +45,7 @@
     text-align: center;
 }
 #nav2 {
-    position: absolute;
+    position: sticky;
     z-index: 1;
 }
 @media (max-width: 932px){
