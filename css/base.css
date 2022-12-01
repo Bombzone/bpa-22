@@ -17,6 +17,7 @@ img {
 }
 .cars li {
     width: min-content;
+    word-wrap: normal;
 }
 body {
     align-content: center;
