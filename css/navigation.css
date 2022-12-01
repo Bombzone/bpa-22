@@ -19,20 +19,20 @@
     text-decoration: none;
 }
 .nav-wrapper .nav-link-wrapper a:hover {
-    color: black;
+    color: gray;
 }
 .nav-link-inactive:hover {
-    color: black;
-    border-bottom: 2px solid black;
+    color: gray;
+    border-bottom: 2px solid gray;
     border-bottom-right-radius: 3px;
     border-bottom-left-radius: 3px;
 }
 
 .nav-wrapper .nav-link-wrapper .nav-link-active {
-    border-bottom: 2px solid black;
+    border-bottom: 2px solid gray;
     border-bottom-right-radius: 3px;
     border-bottom-left-radius: 3px;
-    color: black;
+    color: gray;
 }
 .hours {
     color: gray;
