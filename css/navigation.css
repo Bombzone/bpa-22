@@ -34,6 +34,9 @@
     border-bottom-left-radius: 3px;
     color: black;
 }
+.hours {
+    display: flex;
+}
 .hours > span {
     text-align: center;
 }
