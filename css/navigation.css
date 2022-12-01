@@ -50,7 +50,7 @@
     width: 100%;
 }
 #nav2 {
-    height: 10vh;
+    height: 20vh;
     position: fixed;
     z-index: 1;
     background-color: gray;
@@ -59,7 +59,7 @@
     width: 100%;
 
 }
-#nav2 > {
+#nav2 .nav-link-wrapper {
     padding: 0 5px;
     margin: 0;
 }
@@ -70,9 +70,8 @@
         
     }
     .content {
-        margin-top: 10vh;
+        margin-top: 20vh;
     }
-
 }
 @media (max-width: 932px){
     #nav2 {
