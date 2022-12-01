@@ -34,6 +34,9 @@
     border-bottom-left-radius: 3px;
     color: black;
 }
+.hours > span {
+    text-align: center;
+}
 @media (max-width: 932px){
     body {
       padding-top: 0% !important;  
