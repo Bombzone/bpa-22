@@ -44,11 +44,18 @@
 .hours > span {
     text-align: center;
 }
-#nav2 {
+#nav2, #nav1 {
     position: fixed;
     z-index: 1;
     background-color: gray;
     padding: 0%;
+    width: 100%;
+}
+@media (min-width: 932px){
+    #nav1 {
+        height: 0%;
+        overflow: hidden;
+    }
 }
 @media (max-width: 932px){
     #nav2 {
