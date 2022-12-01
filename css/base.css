@@ -49,7 +49,7 @@ body {
 }
 .cars{
     width: 250;
-    max-height: 150px;
+    height: auto;
 }
 h1 {
     text-align: center;
