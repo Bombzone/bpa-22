@@ -48,6 +48,7 @@
     position: fixed;
     z-index: 1;
     background-color: gray;
+    padding: 0%;
 }
 @media (max-width: 932px){
     #nav2 {
