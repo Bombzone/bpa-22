@@ -44,6 +44,10 @@
 .hours > span {
     text-align: center;
 }
+#nav2 {
+    position: absolute;
+    z-index: 1;
+}
 @media (max-width: 932px){
     body {
       padding-top: 0% !important;  
