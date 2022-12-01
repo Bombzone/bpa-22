@@ -21,6 +21,11 @@ img {
     margin: 10px;
     word-wrap: normal;
 }
+.cars a {
+    height: 0;
+    padding: 0;
+    margin: 0;
+}
 body {
     align-content: center;
     justify-content: center;
