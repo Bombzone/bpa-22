@@ -15,6 +15,9 @@ img {
     display: grid;
     grid-template-columns: auto auto;
 }
+.cars li {
+    width: min-content;
+}
 body {
     align-content: center;
     justify-content: center;
