@@ -64,7 +64,7 @@
     margin: 0;
 }
 @media (min-width: 932px){
-    #nav1 {
+    body #nav1 {
         height: 0%;
         overflow: hidden;
         
