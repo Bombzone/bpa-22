@@ -75,6 +75,8 @@ p {
 .content {
     justify-content: center;
     align-items: center;
+    padding-top: 0;
+    margin-top: 0;
 }
 body > hr {
     display: block;
