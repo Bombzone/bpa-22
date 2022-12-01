@@ -1,5 +1,6 @@
 #thumbnail {
     height: 100px;
+    width: auto;
 }
 img {
     float: none;
