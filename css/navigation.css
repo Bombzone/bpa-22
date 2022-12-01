@@ -36,6 +36,8 @@
 }
 .hours {
     display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .hours > span {
     text-align: center;
