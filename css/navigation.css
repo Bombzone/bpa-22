@@ -19,23 +19,23 @@
     text-decoration: none;
 }
 .nav-wrapper .nav-link-wrapper a:hover {
-    color: gray;
+    color: black;
 }
 .nav-link-inactive:hover {
-    color: gray;
-    border-bottom: 2px solid gray;
+    color: black;
+    border-bottom: 2px solid black;
     border-bottom-right-radius: 3px;
     border-bottom-left-radius: 3px;
 }
 
 .nav-wrapper .nav-link-wrapper .nav-link-active {
-    border-bottom: 2px solid gray;
+    border-bottom: 2px solid black;
     border-bottom-right-radius: 3px;
     border-bottom-left-radius: 3px;
-    color: gray;
+    color: black;
 }
 .hours {
-    color: gray;
+    color: black;
     text-align: right;
     display: flex;
     justify-content: center;
