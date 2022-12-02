@@ -7,7 +7,6 @@
 }
 .navbar {
     padding-top: 0%;
-    margin-top: -20%;
 }
 .nav-wrapper .nav-link-wrapper {
     font-size: 22pt;
@@ -75,6 +74,9 @@
         height: 0% !important;
         overflow: hidden !important;
         
+    }
+    .navbar {
+        margin-top: -20%;
     }
 }
 @media (max-width: 932px){
