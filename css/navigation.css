@@ -83,7 +83,8 @@
         overflow: hidden;
     }
     #nav1 {
-        padding: 0 !important;
+        padding: 20vh !important;
+        height: auto;
     }
     body {
       padding-top: 0% !important;  
