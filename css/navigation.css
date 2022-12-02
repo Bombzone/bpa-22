@@ -81,6 +81,8 @@
     #nav2 {
         height: 0%;
         overflow: hidden;
+    }
+    #nav1 {
         padding: 0 !important;
     }
     body {
