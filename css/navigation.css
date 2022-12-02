@@ -84,6 +84,7 @@
     }
     #nav1 {
         padding: 20vh !important;
+        margin-top: 20vh;
         height: auto;
     }
     body {
