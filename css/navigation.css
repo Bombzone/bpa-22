@@ -75,6 +75,7 @@
         overflow: hidden !important;
         
     }
+    
     .navbar {
         margin-top: -20%;
     }
@@ -88,7 +89,7 @@
         margin: 0;
         padding: 0;
     }
-    .navbar {
+    #nav1 {
         margin: 0;
         padding: 0;
     }
