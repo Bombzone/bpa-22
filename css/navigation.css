@@ -18,7 +18,7 @@
 
 }
 .nav-wrapper .nav-link-wrapper {
-    color: #f6f6f6;
+    color: gray;
     text-decoration: none;
 }
 .nav-wrapper .nav-link-wrapper a:hover {
@@ -38,7 +38,7 @@
     color: black;
 }
 .hours {
-    color: gray;
+    color: #f6f6f6;
     text-align: right;
     display: flex;
     justify-content: center;
@@ -53,10 +53,12 @@
     width: 100%;
 }
 #nav2 {
+    color: gray;
     position: fixed;
     left: -0.1%;
     z-index: 1;
-    background-color: red;
+    background: rgb(32,178,171);
+    background: linear-gradient( #FD5E53 0%, #FC9C54 50%, #FFE373 100%);
     padding: 0%;
     margin: 0%;
     width: 100%;

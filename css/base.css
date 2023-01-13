@@ -15,21 +15,29 @@ img {
     justify-content: space-evenly;
     text-align: center;
 }
+.content-car {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
 .cars {
     display: grid;
     grid-template-columns: auto auto;
 }
-.cars li {
-    width: min-content;
-    padding: 10px;
-    margin: 10px;
-    word-wrap: normal;
+h1{
+    margin: 0;
+    margin-top: 20vh;
 }
-.cars a {
-    height: 0;
-    padding: 0;
+h2{
     margin: 0;
 }
+h3{
+    margin: 0;
+}
+.cars a {
+    padding: 10px;
+    margin: 10px;
+    }
 body {
     align-content: center;
     justify-content: center;
@@ -38,16 +46,17 @@ body {
     margin: 0px !important;
     padding: 0vh 1vw 1vh 1vw !important;
     font-family: "Titillium Web", sans-serif;
-    background: #4F42B4;
+    background: rgb(32,178,171);
+    background: radial-gradient(circle, rgba(32,178,171,1) 0%, rgba(26,163,166,1) 16%, rgba(19,149,161,1) 33%, rgba(14,136,158,1) 49%, rgba(13,134,157,1) 65%, rgba(6,120,152,1) 84%, rgba(0,105,147,1) 100%);
     margin: 0;
     width: 96vw;
     min-height: 100vh;
     overflow-x: hidden;
     font-size: 20pt;
-    color: gray;
+    color: #f6f6f6;
 }
-li .car{
-    width: 250px;
+.car a{
+    width: 256px;
     height: auto;
 }
 h1 {
@@ -95,7 +104,7 @@ body > hr {
     border-width: 2px;
 }
 a {
-    color: #f6f6f6;
+    color: darkgray;
     text-decoration: none;
     align-self: center;
     font-size: 22pt;
